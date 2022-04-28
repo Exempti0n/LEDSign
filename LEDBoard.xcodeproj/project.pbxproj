@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68315A2327F5F7EC001E6582 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68315A2227F5F7EC001E6582 /* SettingViewController.swift */; };
 		684F3B6F27F5B1B3002006EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684F3B6E27F5B1B3002006EF /* AppDelegate.swift */; };
 		684F3B7127F5B1B3002006EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684F3B7027F5B1B3002006EF /* SceneDelegate.swift */; };
 		684F3B7327F5B1B3002006EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684F3B7227F5B1B3002006EF /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		684F3B6B27F5B1B3002006EF /* LEDSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68315A2227F5F7EC001E6582 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		684F3B6B27F5B1B3002006EF /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		684F3B6E27F5B1B3002006EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		684F3B7027F5B1B3002006EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		684F3B7227F5B1B3002006EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		684F3B6C27F5B1B3002006EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				684F3B6B27F5B1B3002006EF /* LEDSign.app */,
+				684F3B6B27F5B1B3002006EF /* LEDBoard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				684F3B7727F5B1B4002006EF /* Assets.xcassets */,
 				684F3B7927F5B1B4002006EF /* LaunchScreen.storyboard */,
 				684F3B7C27F5B1B4002006EF /* Info.plist */,
+				68315A2227F5F7EC001E6582 /* SettingViewController.swift */,
 			);
 			path = LEDSign;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		684F3B6A27F5B1B3002006EF /* LEDSign */ = {
+		684F3B6A27F5B1B3002006EF /* LEDBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684F3B7F27F5B1B4002006EF /* Build configuration list for PBXNativeTarget "LEDSign" */;
+			buildConfigurationList = 684F3B7F27F5B1B4002006EF /* Build configuration list for PBXNativeTarget "LEDBoard" */;
 			buildPhases = (
 				684F3B6727F5B1B3002006EF /* Sources */,
 				684F3B6827F5B1B3002006EF /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = LEDSign;
+			name = LEDBoard;
 			productName = LEDSign;
-			productReference = 684F3B6B27F5B1B3002006EF /* LEDSign.app */;
+			productReference = 684F3B6B27F5B1B3002006EF /* LEDBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 684F3B6627F5B1B3002006EF /* Build configuration list for PBXProject "LEDSign" */;
+			buildConfigurationList = 684F3B6627F5B1B3002006EF /* Build configuration list for PBXProject "LEDBoard" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				684F3B6A27F5B1B3002006EF /* LEDSign */,
+				684F3B6A27F5B1B3002006EF /* LEDBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +144,7 @@
 				684F3B7327F5B1B3002006EF /* ViewController.swift in Sources */,
 				684F3B6F27F5B1B3002006EF /* AppDelegate.swift in Sources */,
 				684F3B7127F5B1B3002006EF /* SceneDelegate.swift in Sources */,
+				68315A2327F5F7EC001E6582 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		684F3B6627F5B1B3002006EF /* Build configuration list for PBXProject "LEDSign" */ = {
+		684F3B6627F5B1B3002006EF /* Build configuration list for PBXProject "LEDBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684F3B7D27F5B1B4002006EF /* Debug */,
@@ -348,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684F3B7F27F5B1B4002006EF /* Build configuration list for PBXNativeTarget "LEDSign" */ = {
+		684F3B7F27F5B1B4002006EF /* Build configuration list for PBXNativeTarget "LEDBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				684F3B8027F5B1B4002006EF /* Debug */,
